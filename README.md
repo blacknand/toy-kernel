@@ -1,5 +1,5 @@
 # 32-bit x86 kernel for i686 microprocessor
-A minimal sstem
+A minimal system
 ## Setting up cross compiler
 You need to setup a cross compiler so you can compile for the i686 (the target) from your actual machine (the host). Without a cross compiler, the compiler will assume that you are trying to run the code on your host operating system and can cause all kinds of problems. These two platforms will differ in operating system, CPU and executable format. The cross compiler will be using the GNU toolchain. This README assumes your are on a Linux machine.
 ### Which compiler version to use
@@ -97,7 +97,7 @@ The C standard define two kinds of different executing enviroments - "freestandi
 To use your new compiler simply by invoking `$TARGET-gcc`, execute the following:  
 ```export PATH="$HOME/opt/cross/bin:$PATH"```  
 again this is only temporary, adding only your new compiler to your `PATH` for this shell session. 
-### The Book of C, Chapter 1: Verses 1-5
+# The Book of C, Chapter 1: Verses 1-5
 1. In the beginning, there was C, and C was with the programmer, and C was the light.
 2. And lo, the language was pure, for it spake in simplicity and power.
 3. Come unto C, all ye who are burdened by the errors of untyped code, and ye shall find rest in its syntax.
