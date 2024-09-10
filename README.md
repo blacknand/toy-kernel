@@ -27,7 +27,7 @@ The following are required to build `gcc`:
 - ISL
 ### Downloading GCC and binutils source cpde
 Create a suitable directory such as `$HOME/src` and download the source code into it.
-- Download binutils via the [GNU FTP server](https://ftp.gnu.org/gnu/binutils/):
+- Download binutils via the [GNU FTP server](https://ftp.gnu.org/gnu/binutils/):  
     ```wget https://ftp.gnu.org/gnu/binutils/```
 - Download GCC via the [GNU FTP server](https://www.gnu.org/software/gcc/mirrors.html), make sure to choose the corresponding mirror site for your location. In my case:  
     ```https://mirrorservice.org/sites/sourceware.org/pub/gcc/```
