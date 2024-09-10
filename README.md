@@ -34,7 +34,7 @@ Create a suitable directory such as `$HOME/src` and download the source code int
 ### Building the compiler
 We build a compiler toolset that is running on your host (your machine) that is able to turn source code into object files for the target machine (i686-elf).
 
-You need to decide where to install your new compiler. It is a terrible idea to install it into any syste directories. You also need to decide if you are installing it globally (for all users) or just you. I would recommend just installing it for you., into `$HOME/opt/cross` We are also building out of the GCC source directory because it can cause the build to fail.
+You need to decide where to install your new compiler. It is a terrible idea to install it into any syste directories. You also need to decide if you are installing it globally (for all users) or just you. I would recommend just installing it for you, into `$HOME/opt/cross`. We are also building out of the GCC source directory because it can cause the build to fail.
 ### Preperation
 Execute the following:
 ```
