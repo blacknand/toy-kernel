@@ -1,5 +1,5 @@
 # 32-bit x86 kernel for i686 microprocessor
-A minimal system
+The OS devs bare bones tutorial. Mostly focuses on the cross compilation setup.
 ## Setting up cross compiler
 You need to setup a cross compiler so you can compile for the i686 (the target) from your actual machine (the host). Without a cross compiler, the compiler will assume that you are trying to run the code on your host operating system and can cause all kinds of problems. These two platforms will differ in operating system, CPU and executable format. The cross compiler will be using the GNU toolchain. This README assumes your are on a Linux machine.
 ### Which compiler version to use
